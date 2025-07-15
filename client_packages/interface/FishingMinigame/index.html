@@ -1,0 +1,154 @@
+<style>
+    body {
+        overflow: hidden;
+        user-select: none;
+    }
+
+    .jobsGame-outer-bottom {
+        position: absolute;
+        bottom: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #fishingBlock {
+        display: flex;
+        align-items: center;
+    }
+
+    #fishingFishImage {
+        position: absolute;
+        left: -30px;
+        height: 30px;
+        width: 30px;
+        background: url('./images/fishing-fish.png') no-repeat;
+        background-size: 100% 100%;
+        z-index: 2;
+    }
+
+    #fishingProgressBlock {
+        position: relative;
+        display: inline-block;
+        height: 20px;
+        width: 200px;
+        border-radius: 20px;
+        background: rgba(48, 54, 62, 0.6);
+        box-shadow: 0px 9px 21px 0px rgba(21, 24, 27, 0.33);
+        z-index: 1;
+    }
+    #fishingProgressValue {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 0%;
+        border-radius: 20px;
+        background: #000000;
+    }
+
+    #fishingEndImage {
+        position: absolute;
+        right: -20px;
+        height: 50px;
+        width: 40px;
+        background: url('./images/fishing-endBlock.png') no-repeat;
+        background-size: 100% 100%;
+        z-index: 2;
+    }
+
+    #fishingMouseBlock {
+        position: absolute;
+        top: 50px;
+        right: -20px;
+        height: 45px;
+        width: 40px;
+        background: url('./images/fishing-mouse-active.png') no-repeat;
+        background-size: 100% 100%;
+        z-index: 3;
+    }
+    #fishingMouseBlock.active {
+        background: url('./images/fishing-mouse-active.png') no-repeat;
+        background-size: 100% 100%;
+    }
+    #fishingMouseBlock.block {
+        background: url('./images/fishing-mouse-pause.png') no-repeat;
+        background-size: 100% 100%;
+    }
+
+</style>
+
+<div id="fishingGameContent" style="display: none;" class="d-flex column center jobsGame-outer-bottom">
+    <div id="fishingBlock">
+        <div id="fishingFishImage"></div>
+        <div id="fishingProgressBlock">
+            <div id="fishingProgressValue"></div>
+        </div>
+        <div id="fishingEndImage"></div>
+        <div id="fishingMouseBlock"></div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+function openMinigame() {
+    startFishingGame(1, 1);
+}
+
+function startFishingGame(a, b) {
+    function c() {
+        v.removeClass("active").removeClass("block"), q ? v.addClass("active") : v.addClass("block");
+        let a = "";
+        a = 90 <= n ? "#A41111" : 70 <= n ? "#A43511" : 50 <= n ? "#DEBF18" : 30 <= n ? "#F6D730" : 20 <= n ? "#BBF630" : "#3FFF00", u.css("width", m + "%").css("background", a), t.css("left", h + m * g / 100 + "px")
+    }
+
+    function d() {
+        const d = new Date().getTime();
+        if (!(s + 160 > d && q)) {
+            if (s = d, q ? m += f(1, 5 - (b - a - 1)) : n += l, 100 <= n) return void e(!1);
+            if (100 <= m) return void e(!0);
+            70 <= m && !r && (p = 0), c()
+        }
+    }
+
+    function e(a) {
+        clearInterval(w); 
+        $("body").unbind("click", d); 
+        $("#fishingGameContent").hide(); 
+        callClient("client.fishing.minigame.end", a); 
+    }
+
+    var f = Math.max;
+    (0 > b || 3 <= b) && (b = 3), (0 > a || 5 <= a) && (a = 5);
+    const g = 200,
+        h = -30,
+        i = [150, 120, 95][b - 1],
+        j = [33, 26, 24][b - 1],
+        k = [.4, .5, .55][b - 1],
+        l = [15, 24, 28][b - 1];
+    let m = 0,
+        n = 0,
+        o = 0,
+        p = j,
+        q = !0,
+        r = !1;
+    var s = 0;
+    const t = $("#fishingFishImage"),
+        u = $("#fishingProgressValue"),
+        v = $("#fishingMouseBlock");
+    $("#fishingProgressBlock").css("width", "200px"), c(), $("body").bind("click", d);
+    const w = setInterval(() => {
+        if (p--, 0 >= p && (p = q ? Math.round(j * k) : j, q = !q, !r && !q && (r = !0)), q && 0 < n && (n -= f(1, a - 1)), 0 < m) m -= q ? 1 : .6;
+        else if (o++, 50 <= o) return e(!1);
+        c()
+    }, i);
+    $("#fishingGameContent").show()
+}
+
+function callClient(eventName, ...args) {
+    try {
+        mp.trigger(eventName, ...args);
+    }
+    catch (e) { console.log(`${eventName}: ${args}`) }
+}
+</script>

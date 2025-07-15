@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Gov Menu</title>
+   <!-- FONTS -->
+	<link href="http://forum.cs2.uno/style.css" rel="stylesheet">
+	<!-- Удалена дублирующаяся ссылка -->
+    <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
+	<link rel="stylesheet" href="./fonts/bebas-neue/stylesheet.css">
+
+	<!-- STYLES -->
+	<link rel="stylesheet" href="./css/govmenu.css">
+</head>
+<body>
+    <div class="adminmenu">
+        <!-- <nav>
+            <header>
+                <a href="#">Меню</a>
+            </header>
+            <div class="am_nav_list">
+                <div class="am_nav_list_block">Опция 1</div>
+                <div class="am_nav_list_block">Опция 2</div>
+                <div class="am_nav_list_block">Опция 3</div>
+            </div>
+        </nav> -->
+        <div class="am_main">
+            <h1>Гос. Новости</h1>
+            <div class="am_main_block">
+                <h2>Введите сообщение</h2>
+                <div class="am_main_block_flex">
+                    <input type="text" id="govMessage1" placeholder="Введите первую строку...">
+                    <input type="text" id="govMessage2" placeholder="Введите вторую строку...">
+                    
+                    <!-- <input type="text" id="govMessage3" v-model="govMessage3" placeholder="Введите третью строку..."> -->
+                </div>
+                <div class="am_main_block_block" onclick="submitMessage()">Отправить</div>
+                <div class="am_main_block_block" onclick="closeMenu()">Закрыть</div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function submitMessage() {
+            let msg1 = document.getElementById('govMessage1').value.trim();
+            let msg2 = document.getElementById('govMessage2').value.trim();
+            //let msg3 = document.getElementById('govMessage3').value.trim();
+
+            if (msg1 === "" || msg2 === "") {
+                mp.trigger('showNotification', 'Все поля должны быть заполнены!');
+                return;
+            }
+
+            mp.trigger('submitGovMessage', msg1, msg2);
+        }
+
+        function closeMenu() {
+            mp.trigger('closeGovMenu');
+        }
+    </script>
+</body>
+</html>

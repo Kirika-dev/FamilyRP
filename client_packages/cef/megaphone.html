@@ -1,0 +1,38 @@
+<html>
+<body>
+    <script>
+        let megaphoneLoop;
+
+        console.log("CEF загружен!");
+
+        function playMegaphoneSound() {
+            console.log("Функция playMegaphoneSound() вызвана!");
+            let startSound = new Audio("package://cef/sounds/megaphone_click_noise.wav");
+            startSound.volume = 1.0;
+            startSound.play().catch(error => console.error("Ошибка воспроизведения startSound:", error));
+
+            setTimeout(() => {
+                megaphoneLoop = new Audio("package://cef/sounds/megaphone_loop.wav");
+                megaphoneLoop.loop = true;
+                megaphoneLoop.volume = 0.4;
+                megaphoneLoop.play().catch(error => console.error("Ошибка воспроизведения megaphoneLoop:", error));
+            }, 500);
+        }
+
+        function stopMegaphoneSound() {
+            console.log("Функция stopMegaphoneSound() вызвана!");
+            if (megaphoneLoop) {
+                megaphoneLoop.pause();
+                megaphoneLoop.currentTime = 0;
+                megaphoneLoop = null;
+            }
+        }
+
+        // Разрешение на автозвук
+        document.addEventListener("click", () => {
+            let silentAudio = new Audio();
+            silentAudio.play().catch(error => console.warn("Требуется взаимодействие с пользователем:", error));
+        });
+    </script>
+</body>
+</html>

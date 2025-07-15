@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.gate-container {
+    text-align: center;
+    background-color: #222;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+    width: 300px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.gate-status {
+    margin-bottom: 20px;
+}
+
+.gate-status p {
+    font-size: 18px;
+    margin: 0;
+    color: #ffcc00;
+}
+
+.gate-controls {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gate-button {
+    background-color: #ffcc00;
+    border: none;
+    color: #000;
+    padding: 15px 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.gate-button:hover {
+    background-color: #ffaa00;
+}

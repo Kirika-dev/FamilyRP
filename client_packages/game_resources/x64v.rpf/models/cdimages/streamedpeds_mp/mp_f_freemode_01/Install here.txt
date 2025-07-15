@@ -1,0 +1,7 @@
+Grand Theft Auto V\mods\x64v.rpf\models\cdimages\streamedpeds_mp.rpf\mp_f_freemode_01
+
+___________________________________________________
+
+put jbib_011_u.ydd here too:
+
+Grand Theft Auto V\mods\update\x64\dlcpacks\patchday9ng\dlc.rpf\x64\models\cdimages\patchday9ng.rpf\mp_f_freemode_01
