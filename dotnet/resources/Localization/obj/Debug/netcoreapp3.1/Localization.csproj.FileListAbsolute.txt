@@ -1,0 +1,28 @@
+C:\Users\Administrator\Desktop\redage_v3-main\dotnet\resources\Localization\bin\Debug\netcoreapp3.1\Localization.deps.json
+C:\Users\Administrator\Desktop\redage_v3-main\dotnet\resources\Localization\bin\Debug\netcoreapp3.1\Localization.dll
+C:\Users\Administrator\Desktop\redage_v3-main\dotnet\resources\Localization\bin\Debug\netcoreapp3.1\Localization.pdb
+C:\Users\Administrator\Desktop\redage_v3-main\dotnet\resources\Localization\obj\Debug\netcoreapp3.1\Localization.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\redage_v3-main\dotnet\resources\Localization\obj\Debug\netcoreapp3.1\Localization.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\redage_v3-main\dotnet\resources\Localization\obj\Debug\netcoreapp3.1\Localization.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\redage_v3-main\dotnet\resources\Localization\obj\Debug\netcoreapp3.1\Localization.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\redage_v3-main\dotnet\resources\Localization\obj\Debug\netcoreapp3.1\Localization.dll
+C:\Users\Administrator\Desktop\redage_v3-main\dotnet\resources\Localization\obj\Debug\netcoreapp3.1\Localization.pdb
+C:\Users\magic\OneDrive\Рабочий стол\redage_v3-main\dotnet\resources\Localization\bin\Debug\netcoreapp3.1\Localization.deps.json
+C:\Users\magic\OneDrive\Рабочий стол\redage_v3-main\dotnet\resources\Localization\bin\Debug\netcoreapp3.1\Localization.dll
+C:\Users\magic\OneDrive\Рабочий стол\redage_v3-main\dotnet\resources\Localization\bin\Debug\netcoreapp3.1\Localization.pdb
+C:\Users\magic\OneDrive\Рабочий стол\redage_v3-main\dotnet\resources\Localization\obj\Debug\netcoreapp3.1\Localization.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\magic\OneDrive\Рабочий стол\redage_v3-main\dotnet\resources\Localization\obj\Debug\netcoreapp3.1\Localization.AssemblyInfoInputs.cache
+C:\Users\magic\OneDrive\Рабочий стол\redage_v3-main\dotnet\resources\Localization\obj\Debug\netcoreapp3.1\Localization.AssemblyInfo.cs
+C:\Users\magic\OneDrive\Рабочий стол\redage_v3-main\dotnet\resources\Localization\obj\Debug\netcoreapp3.1\Localization.csproj.CoreCompileInputs.cache
+C:\Users\magic\OneDrive\Рабочий стол\redage_v3-main\dotnet\resources\Localization\obj\Debug\netcoreapp3.1\Localization.dll
+C:\Users\magic\OneDrive\Рабочий стол\redage_v3-main\dotnet\resources\Localization\obj\Debug\netcoreapp3.1\Localization.pdb
+C:\Servers\redage_v3-main\dotnet\resources\Localization\bin\Debug\netcoreapp3.1\Localization.deps.json
+C:\Servers\redage_v3-main\dotnet\resources\Localization\bin\Debug\netcoreapp3.1\Localization.dll
+C:\Servers\redage_v3-main\dotnet\resources\Localization\bin\Debug\netcoreapp3.1\Localization.pdb
+C:\Servers\redage_v3-main\dotnet\resources\Localization\obj\Debug\netcoreapp3.1\Localization.GeneratedMSBuildEditorConfig.editorconfig
+C:\Servers\redage_v3-main\dotnet\resources\Localization\obj\Debug\netcoreapp3.1\Localization.AssemblyInfoInputs.cache
+C:\Servers\redage_v3-main\dotnet\resources\Localization\obj\Debug\netcoreapp3.1\Localization.AssemblyInfo.cs
+C:\Servers\redage_v3-main\dotnet\resources\Localization\obj\Debug\netcoreapp3.1\Localization.csproj.CoreCompileInputs.cache
+C:\Servers\redage_v3-main\dotnet\resources\Localization\obj\Debug\netcoreapp3.1\Localization.sourcelink.json
+C:\Servers\redage_v3-main\dotnet\resources\Localization\obj\Debug\netcoreapp3.1\Localization.dll
+C:\Servers\redage_v3-main\dotnet\resources\Localization\obj\Debug\netcoreapp3.1\Localization.pdb

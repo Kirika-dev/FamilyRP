@@ -1,0 +1,37 @@
+C:\Users\Administrator\Desktop\redage_v3-main\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.deps.json
+C:\Users\Administrator\Desktop\redage_v3-main\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\Users\Administrator\Desktop\redage_v3-main\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\Users\Administrator\Desktop\redage_v3-main\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.dll
+C:\Users\Administrator\Desktop\redage_v3-main\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\redage_v3-main\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\redage_v3-main\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\redage_v3-main\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\redage_v3-main\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\redage_v3-main\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneE.F4019A40.Up2Date
+C:\Users\Administrator\Desktop\redage_v3-main\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\Users\Administrator\Desktop\redage_v3-main\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\Users\magic\OneDrive\Рабочий стол\redage_v3-main\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.deps.json
+C:\Users\magic\OneDrive\Рабочий стол\redage_v3-main\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\Users\magic\OneDrive\Рабочий стол\redage_v3-main\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\Users\magic\OneDrive\Рабочий стол\redage_v3-main\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.dll
+C:\Users\magic\OneDrive\Рабочий стол\redage_v3-main\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.AssemblyReference.cache
+C:\Users\magic\OneDrive\Рабочий стол\redage_v3-main\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\magic\OneDrive\Рабочий стол\redage_v3-main\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfoInputs.cache
+C:\Users\magic\OneDrive\Рабочий стол\redage_v3-main\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfo.cs
+C:\Users\magic\OneDrive\Рабочий стол\redage_v3-main\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CoreCompileInputs.cache
+C:\Users\magic\OneDrive\Рабочий стол\redage_v3-main\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneE.F4019A40.Up2Date
+C:\Users\magic\OneDrive\Рабочий стол\redage_v3-main\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\Users\magic\OneDrive\Рабочий стол\redage_v3-main\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\Servers\redage_v3-main\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.deps.json
+C:\Servers\redage_v3-main\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\Servers\redage_v3-main\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb
+C:\Servers\redage_v3-main\dotnet\resources\NeptuneEvoSDK\bin\Debug\netcoreapp3.1\Bootstrapper.dll
+C:\Servers\redage_v3-main\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.AssemblyReference.cache
+C:\Servers\redage_v3-main\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.GeneratedMSBuildEditorConfig.editorconfig
+C:\Servers\redage_v3-main\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfoInputs.cache
+C:\Servers\redage_v3-main\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.AssemblyInfo.cs
+C:\Servers\redage_v3-main\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.csproj.CoreCompileInputs.cache
+C:\Servers\redage_v3-main\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.sourcelink.json
+C:\Servers\redage_v3-main\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneE.F4019A40.Up2Date
+C:\Servers\redage_v3-main\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.dll
+C:\Servers\redage_v3-main\dotnet\resources\NeptuneEvoSDK\obj\Debug\netcoreapp3.1\NeptuneEvoSDK.pdb

@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "VuHIUGPiIkY=",
+  "success": true,
+  "projectFilePath": "C:\\Servers\\redage_v3-main\\dotnet\\resources\\NeptuneEvoSDK\\NeptuneEvoSDK.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\magic\\.nuget\\packages\\mysqlconnector\\1.1.0\\mysqlconnector.1.1.0.nupkg.sha512",
+    "C:\\Users\\magic\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\magic\\.nuget\\packages\\system.data.sqlite.core\\1.0.110\\system.data.sqlite.core.1.0.110.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "У пакета \"Newtonsoft.Json\" 12.0.3 есть известная уязвимость https://github.com/advisories/GHSA-5crp-9r3c-p9vr (уровень серьезности: высокий)",
+      "projectPath": "C:\\Servers\\redage_v3-main\\dotnet\\resources\\NeptuneEvoSDK\\NeptuneEvoSDK.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Servers\\redage_v3-main\\dotnet\\resources\\NeptuneEvoSDK\\NeptuneEvoSDK.csproj",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

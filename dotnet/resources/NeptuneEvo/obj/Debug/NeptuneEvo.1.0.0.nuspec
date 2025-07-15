@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NeptuneEvo</id>
+    <version>1.0.0</version>
+    <authors>NeptuneEvo</authors>
+    <description>Package Description</description>
+    <copyright>NSM Research Lab.</copyright>
+    <repository type="git" commit="1473d9e5c8a401933f13bd535728f2504420cfed" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Localization" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NeptuneEvoSDK" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="MySql.Data" version="8.0.28" exclude="Build,Analyzers" />
+        <dependency id="MySqlBackup.NET" version="2.3.4" exclude="Build,Analyzers" />
+        <dependency id="MySqlConnector" version="1.1.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" exclude="Build,Analyzers" />
+        <dependency id="Otp.NET" version="1.2.2" exclude="Build,Analyzers" />
+        <dependency id="StackExchange.Redis" version="2.2.79" exclude="Build,Analyzers" />
+        <dependency id="System.Data.SQLite.Core" version="1.0.113.7" exclude="Build,Analyzers" />
+        <dependency id="linq2db.MySql" version="3.3.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Servers\redage_v3-main\dotnet\resources\NeptuneEvo\bin\Debug\netcoreapp3.1\NeptuneEvo.dll" target="lib\netcoreapp3.1\NeptuneEvo.dll" />
+  </files>
+</package>
